@@ -1,0 +1,108 @@
+body {
+    background: linear-gradient(135deg, #181818 0%, #232323 100%);
+    color: #e0e0e0;
+    font-family: 'Orbitron', 'Arial Black', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(90deg, #222 0%, #3a003a 100%);
+    border-bottom: 3px solid #ff003c;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 8px #000a;
+}
+
+header h1 {
+    color: #ff003c;
+    text-shadow: 2px 2px 8px #000;
+    margin: 0 0 10px 0;
+    font-size: 2em;
+    font-family: 'Orbitron', 'Arial Black', Arial, sans-serif;
+}
+
+nav {
+    margin: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: border 0.2s;
+    font-family: 'Orbitron', 'Arial Black', Arial, sans-serif;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #ff003c;
+}
+
+main {
+    max-width: 700px;
+    margin: 40px auto;
+    background: linear-gradient(135deg, #232323 0%, #181818 100%);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px #000a;
+}
+
+h1, h2, h3 {
+    font-family: 'Corier New', cursive, sans-serif;
+}
+
+h2 {
+    color: #ff003c;
+    text-shadow: 1px 1px 6px #000;
+    font-family: 'Orbitron', 'Arial Black', Arial, sans-serif;
+}
+
+a {
+    color: #00eaff;
+    text-decoration: underline;
+    font-family: 'Orbitron', 'Arial Black', Arial, sans-serif;
+}
+
+a:hover {
+    color: #ff003c;
+}
+
+footer {
+    background: linear-gradient(90deg, #222 0%, #3a003a 100%);
+    color: #888;
+    text-align: center;
+    padding: 15px 0;
+    border-top: 2px solid #ff003c;
+    margin-top: 40px;
+    font-size: 0.9em;
+    font-family: 'Orbitron', 'Arial Black', Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.post {
+    background-color: white;
+    border: 1px solid #ccc;
+    margin: 20px 0;
+    padding: 15px;
+}
+
+.post h2 {
+    color: #0066cc;
+}
