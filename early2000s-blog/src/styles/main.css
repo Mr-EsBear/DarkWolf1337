@@ -1,5 +1,12 @@
+html, body {
+    height: 100%;
+}
+
 body {
-    background: linear-gradient(135deg, #181818 0%, #232323 100%);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #dd0c0c 0%, #232323 100%);
     color: #e0e0e0;
     font-family: 'Orbitron', 'Arial Black', Arial, sans-serif;
     margin: 0;
@@ -7,7 +14,7 @@ body {
 }
 
 header {
-    background: linear-gradient(90deg, #222 0%, #3a003a 100%);
+    background: linear-gradient(90deg, #222 0%, #4e4a6a 100%);
     border-bottom: 3px solid #ff003c;
     padding: 20px 0;
     text-align: center;
@@ -50,7 +57,52 @@ nav ul li a:hover {
     border-bottom: 2px solid #ff003c;
 }
 
+.container {
+    flex: 1;
+    display: flex;
+    max-width: 1100px;
+    margin: 40px auto;
+}
+
+.sidebar {
+    width: 250px;
+    background: linear-gradient(135deg, #232323 0%, #181818 100%);
+    padding: 30px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px #000a;
+    margin-right: 30px;
+    color: #e0e0e0;
+    font-family: 'Orbitron', 'Arial Black', Arial, sans-serif;
+}
+
+.sidebar h3 {
+    color: #ff003c;
+    margin-top: 0;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 6px #000;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: #00eaff;
+    text-decoration: underline;
+    font-family: 'Orbitron', 'Arial Black', Arial, sans-serif;
+}
+
+.sidebar ul li a:hover {
+    color: #ff003c;
+}
+
 main {
+    flex: 1;
     max-width: 700px;
     margin: 40px auto;
     background: linear-gradient(135deg, #232323 0%, #181818 100%);
@@ -60,7 +112,7 @@ main {
 }
 
 h1, h2, h3 {
-    font-family: 'Corier New', cursive, sans-serif;
+    font-family: 'Orbitron', cursive, sans-serif;
 }
 
 h2 {
@@ -80,7 +132,7 @@ a:hover {
 }
 
 footer {
-    background: linear-gradient(90deg, #222 0%, #3a003a 100%);
+    background: linear-gradient(90deg, #222 0%, #76769e 100%);
     color: #888;
     text-align: center;
     padding: 15px 0;
@@ -88,6 +140,7 @@ footer {
     margin-top: 40px;
     font-size: 0.9em;
     font-family: 'Orbitron', 'Arial Black', Arial, sans-serif;
+    width: 100%;
 }
 
 .container {
