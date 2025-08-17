@@ -1,6 +1,6 @@
 ---
 title: The Truth About the Moon Landing
-date: 2025-08-14
+date: 2003-02-22
 author: DarkWolf1337
 tags: [conspiracy, nasa, moon-landing]
 ---
@@ -13,10 +13,11 @@ The moon landing was one of the most controversial events in human history. Many
 2. The perfect camera shots
 3. The lack of stars in the photographs
 4. The strange lighting in the photos
+5. The suspicly lack of a Mc'Donalds 
 
 ## The Evidence
 
-Looking at the footage closely, you can see multiple inconsistencies that the government has never properly explained. The shadows don't align correctly, and the astronauts' movements seem unnatural in the supposed lunar gravity.
+Looking at the footage closely, you can see multiple inconsistencies that the government has never properly explained. The shadows don't align correctly, and the astronauts' movements seem unnatural in the supposed lunar gravity. And WHERE ARE THE MC'DONALD, are you telling me that THE USA whent to the moon and diden't open a MC'Donalds. IT would have been the perfect PR move and there is nothing that stoped them. 
 
 ## The Cover-Up
 

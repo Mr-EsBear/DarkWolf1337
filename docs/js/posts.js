@@ -24,7 +24,7 @@ async function loadPosts() {
             const article = document.createElement('article');
             article.className = 'post';
             article.innerHTML = `
-                <h3>${post.title}</h3>
+                <h2>${post.title}</h2>
                 <p><small>${post.date}</small></p>
                 ${content}
             `;
