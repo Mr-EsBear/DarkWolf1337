@@ -2,8 +2,12 @@
 const marked = window.marked;
 
 async function loadPost(postPath) {
+    console.log(`Loading post: ${postPath}`);
     try {
         const response = await fetch(postPath);
+        if (!response.ok) {
+            throw new Error(`Failed to load ${postPath}: ${response.status}`);
+        }
         const markdown = await response.text();
         return marked.parse(markdown);
     } catch (error) {
@@ -16,10 +20,10 @@ async function loadPosts() {
     try {
         const response = await fetch('js/posts.json');
         const posts = await response.json();
+        console.log('Posts loaded:', posts);
 
         const mainContent = document.querySelector('.main');
-
-        for (const post of posts) {
+        posts.forEach(async post => {
             const content = await loadPost(post.path);
             const article = document.createElement('article');
             article.className = 'post';
@@ -29,7 +33,7 @@ async function loadPosts() {
                 ${content}
             `;
             mainContent.appendChild(article);
-        }
+        });
     } catch (error) {
         console.error('Error loading posts:', error);
     }
