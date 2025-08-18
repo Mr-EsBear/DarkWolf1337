@@ -3,7 +3,7 @@ import json
 import re
 
 # Paths
-posts_dir = "docs/_posts"
+posts_dir = "docs/posts"
 output_file = "docs/js/posts.json"
 
 def extract_metadata(content):
@@ -28,7 +28,7 @@ def generate_posts_json():
                 content = f.read()
                 metadata = extract_metadata(content)
                 posts.append({
-                    "path": f"_posts/{filename}",
+                    "path": f"posts/{filename}",
                     "title": metadata.get("title", "Untitled"),
                     "date": metadata.get("date", "Unknown Date")
                 })
